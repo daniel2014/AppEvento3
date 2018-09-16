@@ -3,7 +3,12 @@ package com.drs.AppEvento3;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.jpa.JpaVendorAdapter;
+import org.springframework.orm.jpa.vendor.Database;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 
+import javax.sql.DataSource;
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -12,7 +17,7 @@ import java.net.URISyntaxException;
 public class DataConfiguration {
 
     //Bin de Conexão com o Banco
-
+/*
     @Bean
     public BasicDataSource dataSource() throws URISyntaxException {
         URI dbUri = new URI(System.getenv("DATABASE_URL"));
@@ -28,8 +33,8 @@ public class DataConfiguration {
 
         return basicDataSource;
     }
+*/
 
-    /*
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -53,6 +58,6 @@ public class DataConfiguration {
         adapter.setPrepareConnection(true); //Para o hibernete se conectar, preparando a conexão automaticamente
         return adapter; // Retorna um adapter
     }
-*/
+
 
 }
