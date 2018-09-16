@@ -1,0 +1,44 @@
+.mainPage {
+    background: rgba(77, 24, 71, 0.04);
+    width: 100%;
+    padding: 20px;
+}
+
+.detalhesConteiner_1 {
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    background: rgb(255, 255, 255);
+}
+
+.detalhesConteiner_2 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.detalhesConteiner_3 {
+    padding-top: 24px;
+}
+
+.detalhesConteiner_4 {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.detalhesConteiner_5 {
+    padding-bottom: 0px;
+}
+
+.tabelaConvidado {
+    width: 100%;
+}
+
+.tituloPersonalizado {
+    box-shadow: 0px 1px 0px #0097a7;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 4px;
+}
